@@ -30,3 +30,8 @@
 .ex-7-img:hover {
     filter: sepia(.6) grayscale(0.8);
 }
+
+.ex-8-img:hover {
+    filter: sepia(.6) grayscale(0.8);
+    border-radius: 10%;
+}
