@@ -69,11 +69,10 @@
 }
 
 
-
 .ex-12-button:hover .ex-12-top-white{
-    animation: spin3top 1s linear;
+    animation: spin3top1 1s linear;
 }
-@keyframes spin3top {
+@keyframes spin3top1 {
     0%  {
         left: 30%;
     }
@@ -87,9 +86,9 @@
 }
 
 .ex-12-button:hover .ex-12-bottom-white{
-    animation: spin3bottom 1s linear;
+    animation: spin3bottom1 1s linear;
 }
-@keyframes spin3bottom {
+@keyframes spin3bottom1 {
     0%  {
         right: 30%;
     }
@@ -99,5 +98,43 @@
 
     100% {
         right: 30%;
+    }
+}
+
+
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: spin3top2 2s linear;
+}
+@keyframes spin3top2 {
+    0%  {
+        left: 50%;      
+    }
+
+    50% {
+        left: 100%;
+        top: 50%;
+    }
+    100%{
+        left: 50%;
+        top: 100%;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: spin3bottom2 2s linear;
+}
+@keyframes spin3bottom2 {
+    0%  {
+        right: 50%;      
+    }
+
+    50% {
+        right: 100%;
+        bottom: 50%;
+    }
+    100%{
+        right: 50%;
+        bottom: 100%;
     }
 }
