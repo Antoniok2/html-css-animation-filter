@@ -26,3 +26,7 @@
 .ex-6-img:hover {
     filter: grayscale(1);
 }
+
+.ex-7-img:hover {
+    filter: sepia(.6) grayscale(0.8);
+}
