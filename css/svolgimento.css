@@ -41,3 +41,13 @@
     border-radius: 10%;
     transform: scale(1.2);
 }
+
+.ex-10-icon {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(1turn);
+    }
+}
